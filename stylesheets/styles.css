@@ -1,0 +1,174 @@
+/* BASE COLORS:  #182940, #2C3540, #747F8C, #DFEDF2, #14768C*/
+/* BASE STYLES */
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    background-color: #182940;
+    color: #CCCCCC;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #747F8C;
+    height: 200px;
+}
+
+h1 {
+    color: #24C3E7;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.8rem;
+    padding-left: 1rem;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+h4, .home-ref {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.1rem;
+    padding-left: 1rem;  
+}
+
+p {
+    padding-left: 1rem;
+    text-indent: 2.6rem;
+    width: 75%;
+}
+
+caption {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+dl {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+dt {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* HOME PAGE STYLES */
+.banner-head {
+    color: #000000;
+    padding-left: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #DFEDF2;
+    margin: 0;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: #2C3540;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-right: 0;
+    font-size: 1.2rem;
+}
+
+.navigation .link:hover {
+    background-color: #14768C;
+    color: #FFFFFF;
+}
+
+.navigation .active {
+    background-color: #14768C;
+    color: #FFFFFF;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+.aside-links {
+    color: #CCCCCC;
+}
+
+.aside-links:hover {
+    color: #FFFFFF;
+}
+
+caption {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.table-caption {
+    font-size: 1.2rem;
+}
+
+.table-summary {
+    font-size: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #747F8C;
+    color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+th {
+    padding: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #2C3540;
+}
+
+tr:nth-child(odd) {
+    background-color: #14768C;
+}
+
+.blank {
+    background-color: #747F8C;
+}
+
+.high-indent {
+    text-indent: 5.2rem;
+}
+
+.home-ref {
+    margin-top: 2rem;
+}
+
+.home-ref-list {
+    margin: 1rem;
+}
+
+.link-indent {
+    color: #24C3E7;
+    padding-left: 2rem;
+}
+
+.statement-link {
+    color: #24C3E7;
+}
